@@ -21,58 +21,13 @@ Image Classification
 
 Deep Learning, Python, TensorFlow/Keras, Streamlit, Data Preprocessing, Transfer Learning, Model Evaluation, Visualization, and Model Deployment
 
-## 🧩 Approach
-1️⃣ Data Preprocessing & Augmentation
+## 💼 Business Use Cases
 
-Load dataset using TensorFlow’s ImageDataGenerator.
+🎯 Enhanced Accuracy: Determine the best architecture for fish image classification.
 
-Rescale images to [0,1].
+⚙️ Deployment Ready: Build a user-friendly web app for real-time predictions.
 
-Apply augmentation (rotation, flipping, zooming, shifting).
-
-2️⃣ Model Training
-
-Train a custom CNN from scratch.
-
-Fine-tune five pre-trained models:
-
-VGG16
-
-ResNet50
-
-MobileNet
-
-InceptionV3
-
-EfficientNetB0
-
-Save the best-performing model (.h5 or .pkl).
-
-3️⃣ Model Evaluation
-
-Compute metrics:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
-
-Confusion Matrix
-
-Visualize:
-
-Training & Validation Accuracy
-
-Training & Validation Loss
-
-4️⃣ Deployment
-
-Build a Streamlit web app that:
-
-Allows users to upload images.
+📊 Model Comparison: Evaluate models and select the best-performing one for production..
 
 ## 🧠 Technologies Used
 
